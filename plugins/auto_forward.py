@@ -17,8 +17,8 @@ class A:
 a = A()
 
 # Default for auto-forward
-SRC = -1002560746569  # Source Channel all post is there [Os PVT]
-DST = -1002776100685  # Backup Channel where all post should be available [Os Backup]
+SRC = -1002053608688  # Source Channel all post is there [Manga Campus]
+DST = -1002773214491  # Backup Channel where all post should be available [Manga Campus Backup]
 
 # Store per-user config temporarily in memory (you can replace with DB)
 cfg = {}
