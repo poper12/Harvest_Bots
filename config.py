@@ -25,7 +25,7 @@ FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002053608688"))
 
 REQUEST_CHANNEL_1 = int(os.environ.get("REQUEST_CHANNEL_1", "-1002183861154"))   #PVT channel of Anime Harvest
 
-REQUEST_CHANNEL_2 = int(os.environ.get("REQUEST_CHANNEL_2", "-1002596277514")) #Backup Channel of Anime Harvest [Manga Campus Backup channel] [-1002359112533]
+REQUEST_CHANNEL_2 = int(os.environ.get("REQUEST_CHANNEL_2", "-1002359112533")) #Backup Channel of Anime Harvest [Manga Campus Backup channel]
 
 
 
