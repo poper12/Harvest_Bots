@@ -6,6 +6,7 @@
 
 <p align="center">🩵 Thanks for Being Here 🩵</p>
 
+---
 
 ### CONFIGS VARIABLES
 
@@ -26,7 +27,7 @@
 * `REQ_SUB_CHANNEL4` Optional: ForceSub Channel ID, leave 0 if you want disable force sub
 * `PROTECT_CONTENT` Optional: True if you need to prevent files from forwarding
 
-
+---
 
 ### EXTRA VARIABLES
 
@@ -35,6 +36,7 @@
 * `BOT_STATS_TEXT` put your custom text for stats command, use HTML
 * `USER_REPLY_TEXT` put your text to show when user sends any message, use HTML
 
+---
 
 ### FEATURES
 - Fully customisable.
@@ -44,13 +46,14 @@
 - Deploy to Koyeb + Heroku + Railway.
 - Developer Service 24x7.
 
-
+---
 
 ### SETUP
 
 - Add the bot to Database Channel with all permission
 - Add bot to ForceSub channel as Admin with Invite Users via Link Permission if you enabled ForceSub
 
+---
 
 ### FILLINGS
 #### START_MESSAGE | FORCE_SUB_MESSAGE
@@ -61,15 +64,20 @@
 * `{mention}` - Mention the user
 * `{username}` - Username
 
+---
+
 #### CUSTOM_CAPTION
 
 * `{filename}` - file name of the Document
 * `{previouscaption}` - Original Caption
 
+---
+
 #### CUSTOM_STATS
 
 * `{uptime}` - Bot Uptime
 
+---
 
 ### ALL COMMANDS
 
@@ -87,6 +95,8 @@ listadmins - list all admins [Owner]
 req_clear_1 - remove requests from db of request 1 channel [Owner]
 req_clear_2 - remove requests from db of request 2 channel [Owner]
 ```
+
+---
 
 ## 💡 Usage Guide
 
@@ -128,6 +138,7 @@ Want to use or resell this bot?
 
 This code is proprietary. You are not allowed to redistribute, resell, or publish it without explicit permission from the owner.
 
+---
 
 ### ⭐ CONTACT DEVELOPER ⭐
 - [Aaru](https://t.me/Aaru_2075)
