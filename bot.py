@@ -93,7 +93,7 @@ class Bot(Client):
             sys.exit()
 
         
-        self.LOGGER(__name__).info(f"Bot Running...!\n\nCreated By \nhttps://t.me/Aaru_2074")
+        self.LOGGER(__name__).info(f"Bot Running...!\n\nCreated By \nhttps://t.me/Aaru_2075")
         self.LOGGER(__name__).info(f"""Aaru""")
         self.username = usr_bot_me.username
         #web-response
@@ -101,6 +101,13 @@ class Bot(Client):
         await app.setup()
         bind_address = "0.0.0.0"
         await web.TCPSite(app, bind_address, PORT).start()
+
+
+
+
+
+#This repo is developed by @aaru_2075, don't you fucking dare to remove credit. [Ask @aaru_2075 before reselling it]
+#For Paid bot or support contact on @Manga_Campus_Chat
 
     async def stop(self, *args):
         await super().stop()
