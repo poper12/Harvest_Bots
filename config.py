@@ -16,19 +16,19 @@ API_HASH = os.environ.get("API_HASH", "")
 
 
 OWNER_ID = int(os.environ.get("OWNER_ID", "6180759790"))
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://renamebot:amrenamebot@cluster0.5ornz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DB_NAME", "Cluster55")
+DB_URL = os.environ.get("DB_URL", "")
+DB_NAME = os.environ.get("DB_NAME", "")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002432294589"))    #DB channel
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))    #DB channel
 
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002432294589"))  #F-sub-1
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))  #F-sub-1
 # Secondary force-subscription channel (set 0 to disable)
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0")) #F-sub-2
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "")) #F-sub-2
 
-REQUEST_CHANNEL_1 = int(os.environ.get("REQUEST_CHANNEL_1", "-1002432294589"))   #Req-sub-1
+REQUEST_CHANNEL_1 = int(os.environ.get("REQUEST_CHANNEL_1", ""))   #Req-sub-1
 
-REQUEST_CHANNEL_2 = int(os.environ.get("REQUEST_CHANNEL_2", "-1002432294589")) #Req-sub-2
+REQUEST_CHANNEL_2 = int(os.environ.get("REQUEST_CHANNEL_2", "")) #Req-sub-2
 
 
 
@@ -105,6 +105,18 @@ class Txt(object):
 <b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
 <b>😈 Bot Made By :</b> @Aaru_2075"""
+
+
+
+
+
+
+
+
+
+
+
+
 
 #This repo is developed by @aaru_2075, don't you fucking dare to remove credit. [Ask @aaru_2075 before reselling it]
 #For Paid bot or support contact on @Manga_Campus_Chat
