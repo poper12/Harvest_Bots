@@ -105,8 +105,8 @@ req_clear_2 - remove requests from db of request 2 channel [Owner]
 1. **Clone the repo**:
 
 ```bash
-git clone https://github.com/ArihantSharma/FileStoreBot
-cd FileStoreBot
+git clone https://github.com/XXXX/YYYY  #https://github.com/userid/Repo name
+cd YYYY #Repo Name
 bash start.sh
 ```
 
@@ -116,7 +116,7 @@ bash start.sh
 pip install -r requirements.txt
 ```
 
-3. **Edit your `config.py`** and `setup.json` as explained above.
+3. **Edit your `config.py`** as explained above.
 
 4. **Run the bot**:
 
