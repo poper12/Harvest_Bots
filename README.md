@@ -149,6 +149,6 @@ This code is proprietary. You are not allowed to redistribute, resell, or publis
 </p>
 
 <p align="center">
-  <a href="https://t.me/aaru_2075">Aaru</a>
+  <a href="https://t.me/aaru_2075">▸ Aaru</a>
 </p>
 
