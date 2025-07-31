@@ -143,4 +143,9 @@ This code is proprietary. You are not allowed to redistribute, resell, or publis
 ---
 
 ### ⭐ CONTACT DEVELOPER ⭐
+
+<p align="center">
+  <img src="https://envs.sh/I56.jpg" alt="logo" width="250" />
+</p>
+
 - [Aaru](https://t.me/Aaru_2075)
