@@ -1,4 +1,5 @@
-#(©)@EdgeBots
+#This repo is developed by @aaru_2075, don't you fucking dare to remove credit. [Ask @aaru_2075 before reselling it]
+#For Paid bot or support contact on @Manga_Campus_Chat
 
 from pyrogram import __version__
 
