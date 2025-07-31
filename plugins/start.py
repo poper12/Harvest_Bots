@@ -1,3 +1,6 @@
+#This repo is developed by @aaru_2075, don't you fucking dare to remove credit. [Ask @aaru_2075 before reselling it]
+#For Paid bot or support contact on @Manga_Campus_Chat
+
 import os, asyncio, humanize
 from pyrogram import Client, filters, __version__
 from pyrogram.enums import ParseMode
@@ -258,3 +261,6 @@ async def clr2(b, m):
     r = await m.reply("`processing...`")
     await delete_all_two()
     await r.edit("Request database 02 Cleared ✅" )
+
+#This repo is developed by @aaru_2075, don't you fucking dare to remove credit. [Ask @aaru_2075 before reselling it]
+#For Paid bot or support contact on @Manga_Campus_Chat
