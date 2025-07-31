@@ -35,7 +35,7 @@ REQUEST_CHANNEL_2 = int(os.environ.get("REQUEST_CHANNEL_2", "-1002432294589")) #
 START_PIC = os.environ.get("START_PIC", "")
 FORCE_PIC = os.environ.get("FORCE_PIC", "")
 
-FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "")) # auto delete in seconds
+FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "0")) # auto delete in seconds or put '0' to turn it off
 
 
 PORT = os.environ.get("PORT", "8040")
