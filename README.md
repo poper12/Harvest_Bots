@@ -147,7 +147,6 @@ This code is proprietary. You are not allowed to redistribute, resell, or publis
 <p align="center">
   <img src="https://envs.sh/Il2.jpg" alt="logo" width="100"" />
 </p>
-
 <p align="center">
   <a href="https://t.me/aaru_2075">▸ Aaru ◂</a>
 </p>
