@@ -145,7 +145,7 @@ This code is proprietary. You are not allowed to redistribute, resell, or publis
 ### <h3 align="center">⭐ CONTACT DEVELOPER ⭐</h3>
 
 <p align="center">
-  <img src="https://envs.sh/Il2.jpg" alt="logo" width="75"" />
+  <img src="https://envs.sh/Il2.jpg" alt="logo" width="100"" />
 </p>
 
 <p align="center">
