@@ -18,43 +18,22 @@
 * `DB_URL` Your mongo db url
 * `DB_NAME` Your mongo db session name
 * `ADMINS` Optional: A space separated list of user_ids of Admins, they can only create links
-* `START_MESSAGE` Optional: start message of bot, use HTML and <a href='https://github.com/JishuDeveloper/File-Sharing-Bot/blob/4-force-subs/README.md#start_message'>fillings</a>
+* `START_MESSAGE` Optional: start message of bot, use HTML
 * `FORCE_SUB_MESSAGE`Optional:Force sub message of bot, use HTML and Fillings
 * `FORCE_SUB_CHANNEL` Optional: ForceSub Channel ID, leave 0 if you want disable force sub
 * `FORCE_SUB_CHANNEL2` Optional: ForceSub Channel ID, leave 0 if you want disable force sub
-* `FORCE_SUB_CHANNEL3` Optional: ForceSub Channel ID, leave 0 if you want disable force sub
-* `FORCE_SUB_CHANNEL4` Optional: ForceSub Channel ID, leave 0 if you want disable force sub
+* `REQ_SUB_CHANNEL3` Optional: ForceSub Channel ID, leave 0 if you want disable force sub
+* `REQ_SUB_CHANNEL4` Optional: ForceSub Channel ID, leave 0 if you want disable force sub
 * `PROTECT_CONTENT` Optional: True if you need to prevent files from forwarding
 
 
 
 ### EXTRA VARIABLES
 
-* `CUSTOM_CAPTION` put your Custom caption text if you want Setup Custom Caption, you can use HTML and <a href='https://github.com/JishuDeveloper/File-Sharing-Bot/blob/4-force-subs/README.md#custom_caption'>fillings</a> for formatting (only for documents)
+* `CUSTOM_CAPTION` put your Custom caption text if you want Setup Custom Caption, you can use HTML
 * `DISABLE_CHANNEL_BUTTON` Put True to Disable Channel Share Button, Default if False
-* `BOT_STATS_TEXT` put your custom text for stats command, use HTML and <a href='https://github.com/JishuDeveloper/File-Sharing-Bot/blob/4-force-subs/README.md#custom_stats'>fillings</a>
+* `BOT_STATS_TEXT` put your custom text for stats command, use HTML
 * `USER_REPLY_TEXT` put your text to show when user sends any message, use HTML
-
-
-
-### DEPLOYEMENT SUPPORT
-
-<summary>Deploy To Koyeb</summary>
-<p>
-<br>                 
-<a target="/blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/JishuDeveloper/File-Sharing-Bot&branch=4-force-subs&name=file-sharing-bot" >
-  <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy">
-</a>
-</p>
-
-<summary>Deploy To Heroku</summary>
-<p>
-<br>
-<a href="https://heroku.com/deploy?template=https://github.com/JishuDeveloper/File-Sharing-Bot/tree/4-force-subs">
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-</a>
-</p>
-
 
 
 ### FEATURES
@@ -98,27 +77,57 @@
 start - start the bot or get posts
 batch - create link for more than one posts
 genlink - create link for one post
-id - to get user id
 users - view bot statistics
+id - to get user id
 broadcast - broadcast any messages to bot users
 stats - checking your bot uptime
+addadmin - <user id> add new admins  [Owner]
+removeadmin - <user id> remove useless once [Owner]
+listadmins - list all admins [Owner]
+req_clear_1 - remove requests from db of request 1 channel [Owner]
+req_clear_2 - remove requests from db of request 2 channel [Owner]
 ```
 
+## 💡 Usage Guide
+
+1. **Clone the repo**:
+
+```bash
+git clone https://github.com/ArihantSharma/FileStoreBot
+cd FileStoreBot
+bash start.sh
+```
+
+2. **Install requirements**:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. **Edit your `config.py`** and `setup.json` as explained above.
+
+4. **Run the bot**:
+
+```bash
+python3 main.py
+```
+
+You’re done!
+
+---
+
+## 🛒 Purchase Full Source
+
+Want to use or resell this bot?
+
+📩 **Contact [𝗔𝗮𝗿𝘂_𝟮𝟬𝟳𝟱](https://t.me/aaru_2075) on Telegram** to purchase the code or for support.
+
+---
+
+## 📜 License
+
+This code is proprietary. You are not allowed to redistribute, resell, or publish it without explicit permission from the owner.
 
 
-### ❤️ RESPECTING ❤️
-- [JishuDeveloper](https://github.com/JishuDeveloper)
-- [Madflix Official](https://github.com/jishusinha)
-
-### 😍 BOTS CHANNEL 😍
-- [Madflix Botz](https://t.me/Madflix_Bots)
-- [Jishu Botz](https://t.me/JishuBotz)
-
-### 💕 CONTACT DEVELOPER 💕
-- [Jishu Developer](https://t.me/JishuDeveloper)
-- [Madflix Official](https://t.me/MadflixOfficials)
-
-### ☕ BUY ME A COFFEE ☕
-- [PayPal](https://paypal.me/jishudeveloper/2.50USD)
-- [PhonePe](https://graph.org/file/6822df5af3a2e80637172.jpg)
-- [UPI](https://graph.org/file/b831109be4acff5c966d2.jpg)
+### ⭐ CONTACT DEVELOPER ⭐
+- [Aaru](https://t.me/Aaru_2075)
