@@ -103,12 +103,16 @@ class Bot(Client):
         await web.TCPSite(app, bind_address, PORT).start()
 
 
+    async def stop(self, *args):
+        await super().stop()
+        self.LOGGER(__name__).info("Bot Stopped...")
+
+
+
+
+
 
 
 
 #This repo is developed by @aaru_2075, don't you fucking dare to remove credit. [Ask @aaru_2075 before reselling it]
 #For Paid bot or support contact on @Manga_Campus_Chat
-
-    async def stop(self, *args):
-        await super().stop()
-        self.LOGGER(__name__).info("Bot Stopped...")
