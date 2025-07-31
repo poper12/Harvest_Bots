@@ -142,10 +142,13 @@ This code is proprietary. You are not allowed to redistribute, resell, or publis
 
 ---
 
-### ⭐ CONTACT DEVELOPER ⭐
+### <h3 align="center">⭐ CONTACT DEVELOPER ⭐</h3>
 
 <p align="center">
-  <img src="https://envs.sh/I56.jpg" alt="logo" width="250" />
+  <img src="https://envs.sh/IS56.jpg" alt="logo" width="75" style="border-radius: 12px;" />
 </p>
 
-- [Aaru](https://t.me/Aaru_2075)
+<p align="center">
+  <a href="https://t.me/aaru_2075">Aaru</a>
+</p>
+
