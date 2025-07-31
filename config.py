@@ -1,3 +1,6 @@
+#This repo is developed by @aaru_2075, don't you fucking dare to remove credit. [Ask @aaru_2075 before reselling it]
+#For Paid bot or support contact on @Manga_Campus_Chat
+
 import os
 import logging
 from dotenv import load_dotenv
@@ -21,11 +24,11 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))    #DB channel
 
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))  #F-sub-1
 # Secondary force-subscription channel (set 0 to disable)
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002053608688")) #F-sub-2
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "")) #F-sub-2
 
-REQUEST_CHANNEL_1 = int(os.environ.get("REQUEST_CHANNEL_1", "-1002183861154"))   #Req-sub-1
+REQUEST_CHANNEL_1 = int(os.environ.get("REQUEST_CHANNEL_1", ""))   #Req-sub-1
 
-REQUEST_CHANNEL_2 = int(os.environ.get("REQUEST_CHANNEL_2", "-1002359112533")) #Req-sub-2
+REQUEST_CHANNEL_2 = int(os.environ.get("REQUEST_CHANNEL_2", "")) #Req-sub-2
 
 
 
@@ -42,7 +45,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 try:
     ADMINS=[6180759790]
-    for x in (os.environ.get("ADMINS", "6180759790 6180759790").split()): #put admin ids like this 6180759790 6975428639 7827086839 [don't put any comma]
+    for x in (os.environ.get("ADMINS", "6180759790 5543390445").split()): #put admin ids like this 6180759790 6975428639 7827086839 [don't put any comma]
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -102,4 +105,7 @@ class Txt(object):
 <b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
 <b>😈 Bot Made By :</b> @Aaru_2075"""
+
+#This repo is developed by @aaru_2075, don't you fucking dare to remove credit. [Ask @aaru_2075 before reselling it]
+#For Paid bot or support contact on @Manga_Campus_Chat
     
