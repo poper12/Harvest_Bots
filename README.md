@@ -1,4 +1,6 @@
-<img src="https://envs.sh/IZE.jpg" alt="logo" target="/blank">
+<p align="center">
+  <img src="https://envs.sh/IZE.jpg" alt="logo" width="500" />
+</p>
 
 <h1 align="center">
  <b><a href="https://t.me/Manga_Campus" target="/blank"> File Sharing Bot </a></>
