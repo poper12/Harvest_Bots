@@ -10,3 +10,6 @@ async def web_server():
     return web_app
 
 __all__ = ['admin_commands']
+
+#This repo is developed by @aaru_2075, don't you fucking dare to remove credit. [Ask @aaru_2075 before reselling it]
+#For Paid bot or support contact on @Manga_Campus_Chat
