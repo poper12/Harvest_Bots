@@ -19,3 +19,6 @@ async def join_reqs(client, join_req: ChatJoinRequest):
             await add_req_two(user_id)
         except Exception as e:
             print(f"Error adding join request to req_two: {e}")
+
+#This repo is developed by @aaru_2075, don't you fucking dare to remove credit. [Ask @aaru_2075 before reselling it]
+#For Paid bot or support contact on @Manga_Campus_Chat
