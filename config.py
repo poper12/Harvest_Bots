@@ -20,15 +20,15 @@ DB_URL = os.environ.get("DB_URL", "")
 DB_NAME = os.environ.get("DB_NAME", "")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))    #DB channel
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002432294589"))    #DB channel
 
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))  #F-sub-1
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002432294589"))  #F-sub-1
 # Secondary force-subscription channel (set 0 to disable)
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "")) #F-sub-2
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0")) #F-sub-2
 
-REQUEST_CHANNEL_1 = int(os.environ.get("REQUEST_CHANNEL_1", ""))   #Req-sub-1
+REQUEST_CHANNEL_1 = int(os.environ.get("REQUEST_CHANNEL_1", "-1002432294589"))   #Req-sub-1
 
-REQUEST_CHANNEL_2 = int(os.environ.get("REQUEST_CHANNEL_2", "")) #Req-sub-2
+REQUEST_CHANNEL_2 = int(os.environ.get("REQUEST_CHANNEL_2", "-1002432294589")) #Req-sub-2
 
 
 
