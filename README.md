@@ -105,8 +105,17 @@ req_clear_2 - remove requests from db of request 2 channel [Owner]
 1. **Clone the repo**:
 
 ```bash
-git clone https://github.com/XXXX/YYYY  #https://github.com/userid/Repo name
-cd YYYY #Repo Name
+#For Public repo
+git clone https://github.com/<username>/<reponame> 
+
+#For Pvt repo
+git clone https://<token>@github.com/<username>/<reponame>   #Generate your Git token [https://youtube.com/shorts/rlO6C6dDKNs?si=GOnG0zsAlZlaQNQs]
+
+#For Pvt repo [Branch]
+git clone -b <BranchName> https://<token>@github.com/<username>/<reponame>.git <Random name>  
+
+cd <reponame> 
+
 bash start.sh
 ```
 
@@ -145,9 +154,8 @@ This code is proprietary. You are not allowed to redistribute, resell, or publis
 ### <h3 align="center">⭐ CONTACT DEVELOPER ⭐</h3>
 
 <p align="center">
-  <img src="https://envs.sh/Il2.jpg" alt="logo" width="75"" />
+  <img src="https://envs.sh/Il2.jpg" alt="logo" width="100"" />
 </p>
-
 <p align="center">
   <a href="https://t.me/aaru_2075">▸ Aaru ◂</a>
 </p>
